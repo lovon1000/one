@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: #09798C;
+    background: #DAE4E5;
+}
+
+.main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.nav .name {
+    color: white;
+    margin-right: auto;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+
+
+.nav li {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+
+.nav a {
+    transition: all 1s;
+}
+
+.nav a:hover {
+    color: mediumpurple;
+}
+
+
+a {
+/*    color: skyblue;*/
+    text-decoration: none;
+}
+
+/*     After break     */
+
+
+header {
+    background: url(Image/background.jpg);
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+
+
+.profile-image {
+    width: 350px;
+    border-radius: 50%;
+/*    border: 20px solid white;*/
+    margin-bottom: 100px;
+    transition: all 3s;
+    box-shadow: 0px 30px 65px black;
+/*    box-shadow: x y blur color;*/
+}
+
+header .profile-image:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+
+.tag {
+    background-color:white;
+    display: table;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.location {
+    background-color: black;
+    color:yellow;
+}
+
+
+.flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card {
+    max-width: 500px;
+    text-align: left;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+/**/
+ul .skills {
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
